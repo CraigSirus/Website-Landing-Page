@@ -1,0 +1,96 @@
+.header {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+}
+
+.header:hover {
+    cursor: default;
+}
+
+.top-tag {
+    font-size: 15px;
+}
+
+.site-title {
+    font-size: 50px;
+}
+
+.site-tagline {
+    color: rgb(33, 124, 38);
+} 
+
+.intro-img {
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-image: url(raspberry-2023404_1920.jpg);
+}
+
+/* Menu */
+
+.nav-item {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(56, 56, 56);
+    transition: 0.3s;
+}
+
+.nav-item:hover {
+    color: white;
+    transform: translateY(-4px);
+}
+
+.container-fluid {
+    margin-top: 30px;
+}
+
+.col-lg-3 {
+    text-transform: uppercase;
+    padding: 50px;
+    text-align: center;
+}
+
+.col-lg-3:hover {
+    cursor: pointer;
+}
+
+.home:hover {
+    color: rgb(233, 233, 233);
+    background-color: rgb(245, 98, 98);
+}
+
+.about:hover {
+    color: rgb(233, 233, 233);
+    background-color: rgb(240, 162, 98);
+}
+
+.services:hover {
+    color: rgb(233, 233, 233);
+    background-color: rgb(140, 238, 128);
+}
+
+.contact:hover {
+    color: rgb(233, 233, 233);
+    background-color: rgb(146, 241, 234);
+}
+
+/* About */
+
+.about-section {
+    font-family: 'Montserrat', sans-serif;
+    padding: 80px;
+    text-align: center;
+}
+
+.about-section:hover {
+    cursor: default;
+}
+
+.about-line {
+    width: 50%;
+    border: 1px solid rgb(238, 129, 114);
+}
+
+/* Bottom Nav */
